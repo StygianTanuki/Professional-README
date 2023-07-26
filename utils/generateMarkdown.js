@@ -39,6 +39,7 @@ function generateMarkdown(data) {
   - [Installation](#install)
   - [Contribute](#contribute)
   - [Links](#links)
+  - [Questions](#questions)
 
   ## Features
   ${data.features}
@@ -54,6 +55,12 @@ function generateMarkdown(data) {
 
   ## Links
   ${data.links}
+
+  ## Questions
+  
+  E-Mail: ${data.email}
+
+  Repo: [${data.github}](https://github.com/${data.github})
 
 `;
 }
